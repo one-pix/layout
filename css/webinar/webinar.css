@@ -1,0 +1,120 @@
+@media (min-width: 1200px){
+	.container {
+	    max-width: 1170px;
+	    padding: 0;
+	}
+}
+header.container.w_header {
+    position: relative;
+    top: unset;
+    border: unset;
+    background: url(../../img/webinar/main.svg)no-repeat center;
+    /*background-size: 670px;*/
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 50px;
+}
+.w_header_left {
+    z-index: 1;
+    padding-top: 70px;
+ }
+.w_header_left h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 114.74%;
+    color: #3C3C3C;
+}
+.w_header_left ul{
+	list-style: none;
+	width: 270px;
+	margin-top: 31px;
+}
+.w_header_left ul li{
+	position: relative;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #3C3C3C;
+	margin-bottom: 30px;
+}
+.w_header_left ul li:before{
+	content:"";
+	position: absolute;
+	background: url(../../img/webinar/star.svg)no-repeat center;
+	width: 24px;
+	height: 24px;
+	top:0;
+	left:-40px;
+}
+.w_header_center img {
+    width: 100%;
+    height: auto;
+}
+.w_header_right{
+	text-align: center;
+}
+.w_header_right p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #3c3c3c;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+.w_date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 126.19%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    
+}
+
+@media (max-width: 1199px){
+	.w_header_left h1{
+		font-size: 39px;
+	}
+	.w_header_left {
+       padding-top: 45px;
+	   padding-bottom: 85px;
+	}
+}
+
+@media (max-width: 991px){
+	.container{
+		padding: 0 20px;
+	}
+	header.container.w_header {
+	    background: none;
+	    padding-top: 43px;
+	    padding-bottom: 0;
+	}
+	.w_header_left ul {
+	    width: 100%;
+	   
+	}
+	.w_header_left {
+	    padding-top: 0px;
+	}
+	.w_header_left h1{
+		font-size: 36px;
+	}
+	.w_header_center {
+	    margin: 0 -20px;
+	    margin-bottom: 82px;
+	}
+	.w_header_center img {
+	    width: calc(100% + 40px);
+	}
+
+}
