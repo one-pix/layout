@@ -107,7 +107,42 @@
             <p><span class="text-big">50 млн руб</span><br><span>активы компании</span></p>
             <p><span class="text-big">150 сделок</span><br><span>за первую половину 2019 года</span></p>
             <p><span class="text-big">5 млн руб</span><br><span>чистая прибыль компании, при выручке в 30 млн руб в месяц</span></p>
+            <a href="#">ООО “Пазл Брокер” ИНН 7704464315</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid w_footer">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 w_logo_holder">
+              <img src="img/webinar/logo.svg" alt="">
+            </div>
+            <h2>Онлайн трансляция</h2>
+            <div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 w_date">
+              <p>25 июня<br>19:15</p>
+            </div>
+            <div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 w_footer_text">
+              <p><span>Оставьте заявку на бесплатный вебинар прямо сейчас и получите</span><br>PDF документ "Пошаговый план:<br>Как создать инвестиционную компанию с нуля"</p>
+            </div>
+
+            <form class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 needs-validation" novalidate="">
+              <div class="form-row">
+                <div class="col-12 col-lg-6 form-group">
+                 <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Введите Ваш Email*" required="">
+                </div>
+                <div class="col-12 col-lg-6">
+                  <button class="form-button" type="submit">Отправить</button>
+                </div>
+              </div>
+            </form>
+
+            <div class="form-footer">
+              <a href="#">Политика конфиденциальности</a>
+              <p>© 2019 Puzzle Capital. All Rights Reserved</p>
+            </div>
+            
         </div>
       </div>
     </section>
@@ -122,6 +157,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/slick.min.js"></script>   
     <script type="text/javascript" src="assets/js/general.js"></script>
+    <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+          (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+              // Fetch all the forms we want to apply custom Bootstrap validation styles to
+              var forms = document.getElementsByClassName('needs-validation');
+              // Loop over them and prevent submission
+              var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                }, false);
+              });
+            }, false);
+          })();
+          </script>
 
   </body>
 </html>

@@ -189,6 +189,9 @@ header.container.w_header {
 	color: #3C3C3C;
 	margin-bottom: 30px;
 }
+.w_about_company {
+    padding-bottom: 100px;
+}
 .w_about_company h2 {
     font-family: Roboto Slab;
     font-style: normal;
@@ -216,9 +219,10 @@ img.w_photo.w_photo_first {
     margin-bottom: 26px;
 }
 .w_about_facts {
-    padding: 70px 70px 80px 70px;
+    padding: 70px 70px 77px 70px;
     border: 2px solid #D5D5D5;
 	box-sizing: border-box;
+	text-align: center;
 }
 .w_about_facts p {
     font-family: Roboto;
@@ -226,11 +230,14 @@ img.w_photo.w_photo_first {
     font-weight: normal;
     font-size: 18px;
     line-height: 152.34%;
-    
+    margin-bottom: 26px;
     align-items: center;
     text-align: center;
     color: #3C3C3C;
     width: 100%;
+}
+.w_about_facts p:last-child{
+	margin-bottom: 34px;
 }
 .w_about_facts p span{
 	width: 100%;
@@ -245,6 +252,63 @@ img.w_photo.w_photo_first {
     align-items: center;
     text-align: center;
 }
+.w_about_facts a {
+   
+    display: inline-block;
+}
+.w_footer {
+    text-align: center;
+    background: #F6F6F6;
+    padding-top: 88px;
+}
+.w_footer h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #3C3C3C;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.w_footer .w_date p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C3C3C;
+}
+.w_footer_text p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 152.34%;
+    text-align: center;
+    color: #3C3C3C;
+}
+.w_footer_text p span {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+.w_footer form {
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+.w_footer .form-footer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 35px;
+    position: relative;
+    width: 100%;
+    left: unset;
+    bottom: unset;
+}
 @media (max-width: 1199px){
 	.w_header_left h1{
 		font-size: 39px;
@@ -252,6 +316,9 @@ img.w_photo.w_photo_first {
 	.w_header_left {
        padding-top: 45px;
 	   padding-bottom: 85px;
+	}
+	.w_about_facts{
+		padding:0;
 	}
 }
 
@@ -300,6 +367,9 @@ img.w_photo.w_photo_first {
 	header.container.w_header{
 		margin-bottom: 43px;
 	}
+	.w_about_founder{
+		padding-bottom: 0;
+	}
 	.w_founder-photo {
 	    width: 100%;
 	    margin-bottom: 0;
@@ -328,5 +398,38 @@ img.w_photo.w_photo_first {
 	}
 	.w_founder_text ul li:before{
 		left: -60px;
+	}
+	.w_about_company h2 {
+	    font-size: 36px;
+	    line-height: 114.74%;
+	    margin: 95px 0 55px;
+	}
+	img.w_photo {
+	    width: 100%;
+	    float: left;
+	    margin-bottom: 26px;
+	}
+	img.w_photo:nth-child(2),img.w_photo:nth-child(3){
+		margin-left: 0;
+		margin-right: 0;
+	}
+	img.w_photo:nth-child(3){
+		margin-bottom: 30px;
+	}
+	.w_about_facts p span.text-big {
+	    font-size: 36px;
+	    line-height: 41px;
+	}
+	.w_about_facts{
+		padding:44px 0 50px;
+	}
+	.w_about_company {
+	    margin-bottom: 50px;
+	}
+	.w_footer {
+	    padding-top: 108px;
+	}
+	.w_footer form {
+	    margin-bottom: 205px;
 	}
 }
